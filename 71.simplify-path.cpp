@@ -6,7 +6,7 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        stack<string> s1,s2;
+        stack<string> s1;
         string temp = "";
         path +="/";
         for(int i = 0;i!=path.size();++i){
